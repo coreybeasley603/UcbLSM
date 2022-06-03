@@ -20,8 +20,6 @@ plugins {
     id("nowinandroid.android.library.jacoco")
     kotlin("kapt")
     id("dagger.hilt.android.plugin")
-    alias(libs.plugins.ksp)
-    id("nowinandroid.spotless")
 }
 
 android {
